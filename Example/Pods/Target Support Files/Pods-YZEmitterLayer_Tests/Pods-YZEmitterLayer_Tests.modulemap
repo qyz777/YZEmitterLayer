@@ -1,6 +1,0 @@
-framework module Pods_YZEmitterLayer_Tests {
-  umbrella header "Pods-YZEmitterLayer_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

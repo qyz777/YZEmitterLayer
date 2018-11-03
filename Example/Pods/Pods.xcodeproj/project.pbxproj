@@ -8,15 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		030084B9B54043752BC25EFEDD1FAF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		35143A6B80AEE84EE00940B01AB9ED59 /* Pods-YZEmitterLayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE47F6DFF1D66B45A514A55EE6188C9 /* Pods-YZEmitterLayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58CCA9369677F3894C622379D103FCAE /* YZEmitterLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A58FFEBF96912E3763C96F040B8607 /* YZEmitterLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35143A6B80AEE84EE00940B01AB9ED59 /* Pods-YZEmitterLayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E5F21B2C2123C201DB8A39FAC8BE4B /* Pods-YZEmitterLayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58CCA9369677F3894C622379D103FCAE /* YZEmitterLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3CA216B3DC2C7E403626CF616D932B /* YZEmitterLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ACE13C18A574E28D364269B4BF318B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5C49E8F9B97681DDA027186B048446FB /* Pods-YZEmitterLayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A3F282C6BDFA514DA0FE7C0318839 /* Pods-YZEmitterLayer_Tests-dummy.m */; };
-		6B4EB5F5F4AEB4F9515ABF2BA0706136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7304D56F9DDEF7FFBCFB275D16BA2A7D /* Pods-YZEmitterLayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC7D754DA339B6D21A375794DFC31CE /* Pods-YZEmitterLayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DB5F3705D2D77752ADA7FD323DFC6AB /* YZEmitterLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E828F8DCB23CE2BE2707A3964A4B8BD4 /* YZEmitterLayer-dummy.m */; };
-		E95A05B89DE92E9D2430275D6246FE53 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AF59BCD33DF6D602F342612243C218 /* ReplaceMe.swift */; };
-		FFDA3CF0623FA86266F36CCD2A6CE61D /* Pods-YZEmitterLayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E87EC1A64AE09FC489FCBBD0B973AECB /* Pods-YZEmitterLayer_Example-dummy.m */; };
+		60656E745F6C6F31372D8A62BF671F20 /* YZEmitterLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BAE110DBFF58FE9465787D756901C0 /* YZEmitterLayer.swift */; };
+		C910C3AC0AA4CAE63985AF79D7F3563A /* YZEmitterLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A120209F51E132E0BAA8CC7653988A3C /* YZEmitterLayer-dummy.m */; };
+		FFDA3CF0623FA86266F36CCD2A6CE61D /* Pods-YZEmitterLayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9591184B88A83C8BEDAEF9E0F3995748 /* Pods-YZEmitterLayer_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,51 +24,33 @@
 			remoteGlobalIDString = 7BF8C89B6AE205204CB0A59263CA8B4C;
 			remoteInfo = YZEmitterLayer;
 		};
-		C417BED5338D3262C6448471089A6A12 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FB0522E5263189A0F6CE43A9CB9BDDA3;
-			remoteInfo = "Pods-YZEmitterLayer_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050A3F282C6BDFA514DA0FE7C0318839 /* Pods-YZEmitterLayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZEmitterLayer_Tests-dummy.m"; sourceTree = "<group>"; };
-		0DC7D754DA339B6D21A375794DFC31CE /* Pods-YZEmitterLayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZEmitterLayer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		19516850069A2D8F71F13FE8B98F8101 /* YZEmitterLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZEmitterLayer-prefix.pch"; sourceTree = "<group>"; };
-		1A18DEBF0E476849B7B100E34B741B97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21D9E5B05E1D3670011BA6CF9B6CFAFE /* Pods-YZEmitterLayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZEmitterLayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2225D20E109D1C9DA6517EA772C060C4 /* Pods-YZEmitterLayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZEmitterLayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		53CA72448B5E236DE33813CE7F36A260 /* YZEmitterLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YZEmitterLayer.modulemap; sourceTree = "<group>"; };
-		5BAEDD8856F0A64871A02E4C6C084495 /* Pods-YZEmitterLayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZEmitterLayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		00B24446267950E3495C3483482D536F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		22019C46D596DB721F512FE3C0B014A8 /* YZEmitterLayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YZEmitterLayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2DECFB61715603343AB8F585C0536E8B /* Pods-YZEmitterLayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZEmitterLayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2F3CA216B3DC2C7E403626CF616D932B /* YZEmitterLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZEmitterLayer-umbrella.h"; sourceTree = "<group>"; };
+		3DEF5E4146FD1F5C508F12E7884C5B72 /* Pods-YZEmitterLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZEmitterLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46EC755A5A44864F0933DE7F85D9BC80 /* Pods_YZEmitterLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YZEmitterLayer_Example.framework; path = "Pods-YZEmitterLayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B949FC6458B5BD11AE0643C747D8C91 /* Pods-YZEmitterLayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZEmitterLayer_Tests-resources.sh"; sourceTree = "<group>"; };
-		7D72DAD727DE58D6FA3C33FB8F91E028 /* Pods-YZEmitterLayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZEmitterLayer_Tests.modulemap"; sourceTree = "<group>"; };
-		80EC72233428AC1B2751060F5A69DF28 /* Pods_YZEmitterLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YZEmitterLayer_Example.framework; path = "Pods-YZEmitterLayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		811D9D971F363A9797EF4BC9F87E7CCB /* Pods-YZEmitterLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZEmitterLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		817CB304911120A198CBC679D8B85B27 /* Pods-YZEmitterLayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZEmitterLayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		92AF59BCD33DF6D602F342612243C218 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YZEmitterLayer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		69BAE110DBFF58FE9465787D756901C0 /* YZEmitterLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YZEmitterLayer.swift; path = YZEmitterLayer/Classes/YZEmitterLayer.swift; sourceTree = "<group>"; };
+		6CD7E55E0CB188FF6F850F1AF4E1850A /* Pods-YZEmitterLayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YZEmitterLayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7528E7FA47FDC76DED769F0764204153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A18488B055A48EE03A7077DE108AC9 /* YZEmitterLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZEmitterLayer.xcconfig; sourceTree = "<group>"; };
+		7ACD86D768292BD93E3C073AE286A140 /* Pods-YZEmitterLayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZEmitterLayer_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BD61B7644174EB39E91E9AD9C042C47 /* Pods-YZEmitterLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZEmitterLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9BF83D43269F6B854865D6BA04CE614D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AAD12B83EE29695E0351E892FDFA5F30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A58FFEBF96912E3763C96F040B8607 /* YZEmitterLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZEmitterLayer-umbrella.h"; sourceTree = "<group>"; };
-		BBE47F6DFF1D66B45A514A55EE6188C9 /* Pods-YZEmitterLayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZEmitterLayer_Example-umbrella.h"; sourceTree = "<group>"; };
-		C5E1985B0315B9FD88B814B07498755D /* Pods-YZEmitterLayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZEmitterLayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CD5D6DC7903ACC1BFC378447397AD208 /* Pods-YZEmitterLayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZEmitterLayer_Example.modulemap"; sourceTree = "<group>"; };
-		D29D907CA3A6327F68A69C4FDF0D76D9 /* Pods-YZEmitterLayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZEmitterLayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D70055C37222B993B4C1101E7C5C1D8D /* Pods_YZEmitterLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YZEmitterLayer_Tests.framework; path = "Pods-YZEmitterLayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCFC39D1895936FCCBCB32B6ED843E24 /* Pods-YZEmitterLayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZEmitterLayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE178F0ACA8D4127076EB547155AAEF0 /* YZEmitterLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YZEmitterLayer.framework; path = YZEmitterLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E49FAD687C67000FB824EE6AF9306300 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E7E07FB9C9469DDA4E50803FA827719C /* YZEmitterLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YZEmitterLayer.xcconfig; sourceTree = "<group>"; };
-		E828F8DCB23CE2BE2707A3964A4B8BD4 /* YZEmitterLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YZEmitterLayer-dummy.m"; sourceTree = "<group>"; };
-		E87EC1A64AE09FC489FCBBD0B973AECB /* Pods-YZEmitterLayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZEmitterLayer_Example-dummy.m"; sourceTree = "<group>"; };
-		ED0438F05D5190F2A72BCD6C46D21A1B /* Pods-YZEmitterLayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YZEmitterLayer_Example-resources.sh"; sourceTree = "<group>"; };
-		EE4A782FE7F652E9A81BA0AD8D13232A /* YZEmitterLayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YZEmitterLayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EF4366778F43C192BE7AC91A66EDAF1C /* Pods-YZEmitterLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZEmitterLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F7ED0240B5F480E79BEC9434E5289639 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9591184B88A83C8BEDAEF9E0F3995748 /* Pods-YZEmitterLayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YZEmitterLayer_Example-dummy.m"; sourceTree = "<group>"; };
+		98E5F21B2C2123C201DB8A39FAC8BE4B /* Pods-YZEmitterLayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YZEmitterLayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		A120209F51E132E0BAA8CC7653988A3C /* YZEmitterLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YZEmitterLayer-dummy.m"; sourceTree = "<group>"; };
+		A1FA3D6315C45FC961F38163BDFA0D43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FA69641E4EB7EC76BB25019451D18F /* YZEmitterLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YZEmitterLayer.framework; path = YZEmitterLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF5D1B1881B8389C7F2B1D13EF0F13E /* Pods-YZEmitterLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YZEmitterLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF785A3163F5E917B078A5FE03BA7C77 /* YZEmitterLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YZEmitterLayer-prefix.pch"; sourceTree = "<group>"; };
+		C95B03BB88379FD1844D10A79A54F2FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D581E3F38DF0A0DE2EFE8E6CEC8F1246 /* Pods-YZEmitterLayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YZEmitterLayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D946C9A9667F535A132B5EF2532B5603 /* YZEmitterLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YZEmitterLayer.modulemap; sourceTree = "<group>"; };
+		E984EA7C9D9915280D3D5D3884E8FEC1 /* Pods-YZEmitterLayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YZEmitterLayer_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				030084B9B54043752BC25EFEDD1FAF66 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C460817ED0467955818564568D86D38 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B4EB5F5F4AEB4F9515ABF2BA0706136 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,32 +73,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20326F4BD2213106B1567FD5C1024BD2 /* Products */ = {
+		139C9C5C05FB7CCB2E9DBEBE8B2B8CC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80EC72233428AC1B2751060F5A69DF28 /* Pods_YZEmitterLayer_Example.framework */,
-				D70055C37222B993B4C1101E7C5C1D8D /* Pods_YZEmitterLayer_Tests.framework */,
-				DE178F0ACA8D4127076EB547155AAEF0 /* YZEmitterLayer.framework */,
+				46EC755A5A44864F0933DE7F85D9BC80 /* Pods_YZEmitterLayer_Example.framework */,
+				A8FA69641E4EB7EC76BB25019451D18F /* YZEmitterLayer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B20CB2AE556BC9D3D1D330C53C8F49E /* Pods-YZEmitterLayer_Tests */ = {
+		50F1392958858D87375A4D394A564281 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7ED0240B5F480E79BEC9434E5289639 /* Info.plist */,
-				7D72DAD727DE58D6FA3C33FB8F91E028 /* Pods-YZEmitterLayer_Tests.modulemap */,
-				D29D907CA3A6327F68A69C4FDF0D76D9 /* Pods-YZEmitterLayer_Tests-acknowledgements.markdown */,
-				21D9E5B05E1D3670011BA6CF9B6CFAFE /* Pods-YZEmitterLayer_Tests-acknowledgements.plist */,
-				050A3F282C6BDFA514DA0FE7C0318839 /* Pods-YZEmitterLayer_Tests-dummy.m */,
-				817CB304911120A198CBC679D8B85B27 /* Pods-YZEmitterLayer_Tests-frameworks.sh */,
-				7B949FC6458B5BD11AE0643C747D8C91 /* Pods-YZEmitterLayer_Tests-resources.sh */,
-				0DC7D754DA339B6D21A375794DFC31CE /* Pods-YZEmitterLayer_Tests-umbrella.h */,
-				2225D20E109D1C9DA6517EA772C060C4 /* Pods-YZEmitterLayer_Tests.debug.xcconfig */,
-				811D9D971F363A9797EF4BC9F87E7CCB /* Pods-YZEmitterLayer_Tests.release.xcconfig */,
+				7528E7FA47FDC76DED769F0764204153 /* Info.plist */,
+				D946C9A9667F535A132B5EF2532B5603 /* YZEmitterLayer.modulemap */,
+				75A18488B055A48EE03A7077DE108AC9 /* YZEmitterLayer.xcconfig */,
+				A120209F51E132E0BAA8CC7653988A3C /* YZEmitterLayer-dummy.m */,
+				BF785A3163F5E917B078A5FE03BA7C77 /* YZEmitterLayer-prefix.pch */,
+				2F3CA216B3DC2C7E403626CF616D932B /* YZEmitterLayer-umbrella.h */,
 			);
-			name = "Pods-YZEmitterLayer_Tests";
-			path = "Target Support Files/Pods-YZEmitterLayer_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YZEmitterLayer";
+			sourceTree = "<group>";
+		};
+		5A2C263A9896937D89D2C690BD057E87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E72E87A9EF3D39EF680F135FBB2696C6 /* Pods-YZEmitterLayer_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BE107F24B1B28A3C8BFC969BEBC4555 /* YZEmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				69BAE110DBFF58FE9465787D756901C0 /* YZEmitterLayer.swift */,
+				AA80AD8EF54C503B80282AFFDE5F2186 /* Pod */,
+				50F1392958858D87375A4D394A564281 /* Support Files */,
+			);
+			name = YZEmitterLayer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -136,54 +121,25 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				B6BDDF58099A9F4634A2D618281744B0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				20326F4BD2213106B1567FD5C1024BD2 /* Products */,
-				E90B876C1FE1D10CDD824683C61776F5 /* Targets Support Files */,
+				139C9C5C05FB7CCB2E9DBEBE8B2B8CC1 /* Products */,
+				5A2C263A9896937D89D2C690BD057E87 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8328697790C6CDBB0AAF027EBE0D2D4B /* YZEmitterLayer */ = {
+		AA80AD8EF54C503B80282AFFDE5F2186 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				92AF59BCD33DF6D602F342612243C218 /* ReplaceMe.swift */,
-				93D26CCB03D4A64E100FC9E5D16A6E1A /* Pod */,
-				DBFCB9FE61933909B52EE4DE0F98F05E /* Support Files */,
-			);
-			name = YZEmitterLayer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		93D26CCB03D4A64E100FC9E5D16A6E1A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9BF83D43269F6B854865D6BA04CE614D /* LICENSE */,
-				E49FAD687C67000FB824EE6AF9306300 /* README.md */,
-				EE4A782FE7F652E9A81BA0AD8D13232A /* YZEmitterLayer.podspec */,
+				00B24446267950E3495C3483482D536F /* LICENSE */,
+				C95B03BB88379FD1844D10A79A54F2FE /* README.md */,
+				22019C46D596DB721F512FE3C0B014A8 /* YZEmitterLayer.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		AFE6377A6C64AFDFCBA7DA5B74AF6E78 /* Pods-YZEmitterLayer_Example */ = {
-			isa = PBXGroup;
-			children = (
-				1A18DEBF0E476849B7B100E34B741B97 /* Info.plist */,
-				CD5D6DC7903ACC1BFC378447397AD208 /* Pods-YZEmitterLayer_Example.modulemap */,
-				DCFC39D1895936FCCBCB32B6ED843E24 /* Pods-YZEmitterLayer_Example-acknowledgements.markdown */,
-				5BAEDD8856F0A64871A02E4C6C084495 /* Pods-YZEmitterLayer_Example-acknowledgements.plist */,
-				E87EC1A64AE09FC489FCBBD0B973AECB /* Pods-YZEmitterLayer_Example-dummy.m */,
-				C5E1985B0315B9FD88B814B07498755D /* Pods-YZEmitterLayer_Example-frameworks.sh */,
-				ED0438F05D5190F2A72BCD6C46D21A1B /* Pods-YZEmitterLayer_Example-resources.sh */,
-				BBE47F6DFF1D66B45A514A55EE6188C9 /* Pods-YZEmitterLayer_Example-umbrella.h */,
-				EF4366778F43C192BE7AC91A66EDAF1C /* Pods-YZEmitterLayer_Example.debug.xcconfig */,
-				9BD61B7644174EB39E91E9AD9C042C47 /* Pods-YZEmitterLayer_Example.release.xcconfig */,
-			);
-			name = "Pods-YZEmitterLayer_Example";
-			path = "Target Support Files/Pods-YZEmitterLayer_Example";
 			sourceTree = "<group>";
 		};
 		B6BDDF58099A9F4634A2D618281744B0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8328697790C6CDBB0AAF027EBE0D2D4B /* YZEmitterLayer */,
+				6BE107F24B1B28A3C8BFC969BEBC4555 /* YZEmitterLayer */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -204,40 +160,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DBFCB9FE61933909B52EE4DE0F98F05E /* Support Files */ = {
+		E72E87A9EF3D39EF680F135FBB2696C6 /* Pods-YZEmitterLayer_Example */ = {
 			isa = PBXGroup;
 			children = (
-				AAD12B83EE29695E0351E892FDFA5F30 /* Info.plist */,
-				53CA72448B5E236DE33813CE7F36A260 /* YZEmitterLayer.modulemap */,
-				E7E07FB9C9469DDA4E50803FA827719C /* YZEmitterLayer.xcconfig */,
-				E828F8DCB23CE2BE2707A3964A4B8BD4 /* YZEmitterLayer-dummy.m */,
-				19516850069A2D8F71F13FE8B98F8101 /* YZEmitterLayer-prefix.pch */,
-				B5A58FFEBF96912E3763C96F040B8607 /* YZEmitterLayer-umbrella.h */,
+				A1FA3D6315C45FC961F38163BDFA0D43 /* Info.plist */,
+				E984EA7C9D9915280D3D5D3884E8FEC1 /* Pods-YZEmitterLayer_Example.modulemap */,
+				D581E3F38DF0A0DE2EFE8E6CEC8F1246 /* Pods-YZEmitterLayer_Example-acknowledgements.markdown */,
+				6CD7E55E0CB188FF6F850F1AF4E1850A /* Pods-YZEmitterLayer_Example-acknowledgements.plist */,
+				9591184B88A83C8BEDAEF9E0F3995748 /* Pods-YZEmitterLayer_Example-dummy.m */,
+				2DECFB61715603343AB8F585C0536E8B /* Pods-YZEmitterLayer_Example-frameworks.sh */,
+				7ACD86D768292BD93E3C073AE286A140 /* Pods-YZEmitterLayer_Example-resources.sh */,
+				98E5F21B2C2123C201DB8A39FAC8BE4B /* Pods-YZEmitterLayer_Example-umbrella.h */,
+				3DEF5E4146FD1F5C508F12E7884C5B72 /* Pods-YZEmitterLayer_Example.debug.xcconfig */,
+				ACF5D1B1881B8389C7F2B1D13EF0F13E /* Pods-YZEmitterLayer_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YZEmitterLayer";
-			sourceTree = "<group>";
-		};
-		E90B876C1FE1D10CDD824683C61776F5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AFE6377A6C64AFDFCBA7DA5B74AF6E78 /* Pods-YZEmitterLayer_Example */,
-				5B20CB2AE556BC9D3D1D330C53C8F49E /* Pods-YZEmitterLayer_Tests */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-YZEmitterLayer_Example";
+			path = "Target Support Files/Pods-YZEmitterLayer_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C6D643E7A7B5A85D0F11245B852A9B0A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7304D56F9DDEF7FFBCFB275D16BA2A7D /* Pods-YZEmitterLayer_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DF6FE1070E17CFCE43F20A5FC57FAB30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,7 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4997123A2F0A42EFEE94BB56119A846 /* Build configuration list for PBXNativeTarget "YZEmitterLayer" */;
 			buildPhases = (
-				7D76641F167BB6CE504394153AACC81F /* Sources */,
+				70FD66661F1D5EA5EE88D6B016A3004C /* Sources */,
 				2F2ACD5393C088A406E30F60B0533E1A /* Frameworks */,
 				DF6FE1070E17CFCE43F20A5FC57FAB30 /* Headers */,
 			);
@@ -271,25 +214,7 @@
 			);
 			name = YZEmitterLayer;
 			productName = YZEmitterLayer;
-			productReference = DE178F0ACA8D4127076EB547155AAEF0 /* YZEmitterLayer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E39CD40206F0249967581376D49F0BE3 /* Pods-YZEmitterLayer_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF63973F85B7E308E75E19A976C17834 /* Build configuration list for PBXNativeTarget "Pods-YZEmitterLayer_Tests" */;
-			buildPhases = (
-				032B16664DF4C696FA42E487D492945C /* Sources */,
-				7C460817ED0467955818564568D86D38 /* Frameworks */,
-				C6D643E7A7B5A85D0F11245B852A9B0A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1AC5A52A5DB94B72B22F482CB9117317 /* PBXTargetDependency */,
-			);
-			name = "Pods-YZEmitterLayer_Tests";
-			productName = "Pods-YZEmitterLayer_Tests";
-			productReference = D70055C37222B993B4C1101E7C5C1D8D /* Pods_YZEmitterLayer_Tests.framework */;
+			productReference = A8FA69641E4EB7EC76BB25019451D18F /* YZEmitterLayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FB0522E5263189A0F6CE43A9CB9BDDA3 /* Pods-YZEmitterLayer_Example */ = {
@@ -307,7 +232,7 @@
 			);
 			name = "Pods-YZEmitterLayer_Example";
 			productName = "Pods-YZEmitterLayer_Example";
-			productReference = 80EC72233428AC1B2751060F5A69DF28 /* Pods_YZEmitterLayer_Example.framework */;
+			productReference = 46EC755A5A44864F0933DE7F85D9BC80 /* Pods_YZEmitterLayer_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,32 +252,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 20326F4BD2213106B1567FD5C1024BD2 /* Products */;
+			productRefGroup = 139C9C5C05FB7CCB2E9DBEBE8B2B8CC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FB0522E5263189A0F6CE43A9CB9BDDA3 /* Pods-YZEmitterLayer_Example */,
-				E39CD40206F0249967581376D49F0BE3 /* Pods-YZEmitterLayer_Tests */,
 				7BF8C89B6AE205204CB0A59263CA8B4C /* YZEmitterLayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		032B16664DF4C696FA42E487D492945C /* Sources */ = {
+		70FD66661F1D5EA5EE88D6B016A3004C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C49E8F9B97681DDA027186B048446FB /* Pods-YZEmitterLayer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7D76641F167BB6CE504394153AACC81F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E95A05B89DE92E9D2430275D6246FE53 /* ReplaceMe.swift in Sources */,
-				8DB5F3705D2D77752ADA7FD323DFC6AB /* YZEmitterLayer-dummy.m in Sources */,
+				C910C3AC0AA4CAE63985AF79D7F3563A /* YZEmitterLayer-dummy.m in Sources */,
+				60656E745F6C6F31372D8A62BF671F20 /* YZEmitterLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,12 +283,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1AC5A52A5DB94B72B22F482CB9117317 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-YZEmitterLayer_Example";
-			target = FB0522E5263189A0F6CE43A9CB9BDDA3 /* Pods-YZEmitterLayer_Example */;
-			targetProxy = C417BED5338D3262C6448471089A6A12 /* PBXContainerItemProxy */;
-		};
 		DBB4B7606795E2952559AF92B1400529 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YZEmitterLayer;
@@ -382,9 +292,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BA81252A2077CB074764687815822AE /* Release */ = {
+		44F936DC70E700F0426BEF0C56FD1590 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7E07FB9C9469DDA4E50803FA827719C /* YZEmitterLayer.xcconfig */;
+			baseConfigurationReference = 75A18488B055A48EE03A7077DE108AC9 /* YZEmitterLayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -406,48 +316,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		766111AED5CBC61107D7072B537EF81E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 811D9D971F363A9797EF4BC9F87E7CCB /* Pods-YZEmitterLayer_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YZEmitterLayer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YZEmitterLayer_Tests/Pods-YZEmitterLayer_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -512,11 +387,10 @@
 			};
 			name = Debug;
 		};
-		B069B66250DF44D56C5FD91C8D873E7A /* Debug */ = {
+		AA962CF843D60D1C1D29FAAB9F91D97A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2225D20E109D1C9DA6517EA772C060C4 /* Pods-YZEmitterLayer_Tests.debug.xcconfig */;
+			baseConfigurationReference = 75A18488B055A48EE03A7077DE108AC9 /* YZEmitterLayer.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -526,24 +400,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YZEmitterLayer_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YZEmitterLayer/YZEmitterLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YZEmitterLayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YZEmitterLayer_Tests/Pods-YZEmitterLayer_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/YZEmitterLayer/YZEmitterLayer.modulemap";
+				PRODUCT_MODULE_NAME = YZEmitterLayer;
+				PRODUCT_NAME = YZEmitterLayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -603,41 +478,9 @@
 			};
 			name = Release;
 		};
-		C6481B670B5A4A80E33028C5DBF516B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7E07FB9C9469DDA4E50803FA827719C /* YZEmitterLayer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YZEmitterLayer/YZEmitterLayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YZEmitterLayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YZEmitterLayer/YZEmitterLayer.modulemap";
-				PRODUCT_MODULE_NAME = YZEmitterLayer;
-				PRODUCT_NAME = YZEmitterLayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CFC1ED40B3165F0B94D41DDFAA7106D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF4366778F43C192BE7AC91A66EDAF1C /* Pods-YZEmitterLayer_Example.debug.xcconfig */;
+			baseConfigurationReference = 3DEF5E4146FD1F5C508F12E7884C5B72 /* Pods-YZEmitterLayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -672,7 +515,7 @@
 		};
 		FEEDD41A6C5EB5C0DCCAB6D6DFB5AD46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BD61B7644174EB39E91E9AD9C042C47 /* Pods-YZEmitterLayer_Example.release.xcconfig */;
+			baseConfigurationReference = ACF5D1B1881B8389C7F2B1D13EF0F13E /* Pods-YZEmitterLayer_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -729,17 +572,8 @@
 		B4997123A2F0A42EFEE94BB56119A846 /* Build configuration list for PBXNativeTarget "YZEmitterLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6481B670B5A4A80E33028C5DBF516B1 /* Debug */,
-				1BA81252A2077CB074764687815822AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF63973F85B7E308E75E19A976C17834 /* Build configuration list for PBXNativeTarget "Pods-YZEmitterLayer_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B069B66250DF44D56C5FD91C8D873E7A /* Debug */,
-				766111AED5CBC61107D7072B537EF81E /* Release */,
+				44F936DC70E700F0426BEF0C56FD1590 /* Debug */,
+				AA962CF843D60D1C1D29FAAB9F91D97A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

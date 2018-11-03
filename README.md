@@ -1,15 +1,14 @@
 # YZEmitterLayer
 
-[![CI Status](https://img.shields.io/travis/qyz777/YZEmitterLayer.svg?style=flat)](https://travis-ci.org/qyz777/YZEmitterLayer)
-[![Version](https://img.shields.io/cocoapods/v/YZEmitterLayer.svg?style=flat)](https://cocoapods.org/pods/YZEmitterLayer)
-[![License](https://img.shields.io/cocoapods/l/YZEmitterLayer.svg?style=flat)](https://cocoapods.org/pods/YZEmitterLayer)
-[![Platform](https://img.shields.io/cocoapods/p/YZEmitterLayer.svg?style=flat)](https://cocoapods.org/pods/YZEmitterLayer)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://cocoapods.org/pods/YZEmitterLayer)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+Swift 4.0+
 
 ## Installation
 
@@ -20,9 +19,30 @@ it, simply add the following line to your Podfile:
 pod 'YZEmitterLayer'
 ```
 
+## Usage
+
+```swift
+import YZEmitterLayer
+
+let tap = UITapGestureRecognizer.init(target: self, action: #selector(begin))
+view.addGestureRecognizer(tap)
+
+@objc func begin() {
+        let animationLayer = YZEmitterLayer.emitterLayer(size: CGSize.init(width: 32, height: 32), center: view.center, image: UIImage.init(named: "love")!)
+        animationLayer.yz_delegate = self
+        animationLayer.fromAlpha = 1.0
+        animationLayer.toAlpha = 0
+        animationLayer.fromScale = 0
+        animationLayer.toScale = 1
+        animationLayer.roateRange = Double.pi / 4
+        animationLayer.startAnimation()
+}
+
+```
+
 ## Author
 
-qyz777, 178159283@qq.com
+qyz777, qyizhong1998@gmail.com
 
 ## License
 

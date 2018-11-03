@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'YZEmitterLayer_Example' do
   pod 'YZEmitterLayer', :path => '../'
-
-  target 'YZEmitterLayer_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

@@ -1,8 +1,8 @@
 {
   "name": "YZEmitterLayer",
   "version": "0.1.0",
-  "summary": "A short description of YZEmitterLayer.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "YZEmitterLayer by QYiZhong.",
+  "description": "A simple emitter layer. You can use it to make some animated cartoons.",
   "homepage": "https://github.com/qyz777/YZEmitterLayer",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YZEmitterLayer/Classes/**/*"
+  "source_files": "YZEmitterLayer/Classes/**/*",
+  "swift_version": "4.2"
 }
