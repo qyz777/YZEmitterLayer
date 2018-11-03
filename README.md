@@ -2,9 +2,9 @@
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://cocoapods.org/pods/YZEmitterLayer)
 
-## Example
+## Demo
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![demo](./demo.gif)
 
 ## Requirements
 
