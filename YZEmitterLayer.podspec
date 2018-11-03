@@ -30,7 +30,7 @@ A simple emitter layer. You can use it to make some animated cartoons.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YZEmitterLayer/Classes/**/*'
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'YZEmitterLayer' => ['YZEmitterLayer/Assets/*.png']
