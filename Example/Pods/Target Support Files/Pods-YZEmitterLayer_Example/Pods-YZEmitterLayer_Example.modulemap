@@ -1,0 +1,6 @@
+framework module Pods_YZEmitterLayer_Example {
+  umbrella header "Pods-YZEmitterLayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

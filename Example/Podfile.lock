@@ -1,0 +1,16 @@
+PODS:
+  - YZEmitterLayer (0.1.0)
+
+DEPENDENCIES:
+  - YZEmitterLayer (from `../`)
+
+EXTERNAL SOURCES:
+  YZEmitterLayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YZEmitterLayer: 58378aabc6d08767e9a92742ef0c52b56b732b25
+
+PODFILE CHECKSUM: 5b611a1e24811067a21b00f65a60055a16e63ee3
+
+COCOAPODS: 1.5.0

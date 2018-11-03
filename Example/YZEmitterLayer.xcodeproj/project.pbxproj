@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		18414D1AF2D95DD98E5EBEDA /* Pods_YZEmitterLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZEmitterLayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B370F7B46006478AF86F1AB /* Pods-YZEmitterLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZEmitterLayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZEmitterLayer_Example/Pods-YZEmitterLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CCFD10A12C3446D6541AAE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2CCFD10A12C3446D6541AAE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2F50362FA424F387C1ABCEE6 /* Pods-YZEmitterLayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZEmitterLayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZEmitterLayer_Tests/Pods-YZEmitterLayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4CDBCFE3CACF5F23BE8E78A7 /* Pods-YZEmitterLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZEmitterLayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZEmitterLayer_Tests/Pods-YZEmitterLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E23655A1C9E07127E3EAA37 /* Pods-YZEmitterLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZEmitterLayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZEmitterLayer_Example/Pods-YZEmitterLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		86FE54587E1871B90C6ECAEC /* Pods_YZEmitterLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZEmitterLayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B96DC77D11872B7E8D09D44C /* YZEmitterLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YZEmitterLayer.podspec; path = ../YZEmitterLayer.podspec; sourceTree = "<group>"; };
-		D17EBA1DDDA8436A447BB076 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B96DC77D11872B7E8D09D44C /* YZEmitterLayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YZEmitterLayer.podspec; path = ../YZEmitterLayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D17EBA1DDDA8436A447BB076 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

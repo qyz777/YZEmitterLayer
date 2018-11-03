@@ -1,0 +1,22 @@
+{
+  "name": "YZEmitterLayer",
+  "version": "0.1.0",
+  "summary": "A short description of YZEmitterLayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qyz777/YZEmitterLayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qyz777": "178159283@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/qyz777/YZEmitterLayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YZEmitterLayer/Classes/**/*"
+}
