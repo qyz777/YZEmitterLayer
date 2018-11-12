@@ -184,5 +184,6 @@ public class YZEmitterLayer: CALayer, CAAnimationDelegate {
     // MARK: CAAnimationDelegate
     private func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
         removeFromSuperlayer()
+        removeAllAnimations()
     }
 }
